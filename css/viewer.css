@@ -1,0 +1,84 @@
+
+.viewer{
+  width: 350px;
+}
+
+.viewer{
+  position: relative;
+  margin: 0 auto;
+
+  height: 550px;
+
+  background-color: #F3F3F3;
+  display: block;
+}
+
+
+/*shortest-path in a maze*/
+
+.maze{
+  top: 75px;
+  height: 350px;
+}
+
+.menu, .maze {
+  position: absolute;
+  width: 100%;
+}
+
+.maze > ul, .end, .start, .menu {
+  display: flex;
+}
+
+.menu{
+  justify-content: space-between;
+  top: 450px
+}
+
+.menu > button {
+  margin: 0 15px;
+  height: 30px;
+  width: 100px;
+
+  color: white;
+  font-size: 15px;
+  border-radius: 5px
+}
+
+.maze > ul {
+  height: 12.5%;
+}
+
+.maze > ul > li{
+  height: 100%;
+  width: 16%;
+}
+
+.end, .start, .wall, .path{
+  border-radius: 25%;
+}
+.wall{
+  background-color: #918B8B;
+}
+
+.path, .menu > button{
+  background-color: #6666FF;
+}
+
+.end, .start{
+  background-color: #99CCFF;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  font-size: 30px;
+}
+
+p {
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin-top: 75px;
+}

@@ -1,0 +1,41 @@
+
+.header, .header li{
+  height: 80px;
+}
+
+.header ul, .header li{
+  display: flex;
+}
+
+.header{
+  width: 100%;
+  background-color: #99CCFF;
+}
+
+.header ul{
+  margin: 0 auto;
+  width: 350px;
+}
+
+.header li{
+  padding: 0 15px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  border-left: 2px solid white;
+}
+
+.graph {
+  border-right: 2px solid white;
+}
+
+.header li:hover{
+  background-color: black;
+  color: white;
+}

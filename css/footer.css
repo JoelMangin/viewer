@@ -1,0 +1,35 @@
+
+.footer, .footer h4{
+  display: flex;
+}
+
+.footer{
+  justify-content: flex-end;
+
+  position: relative;
+  margin: 0 auto;
+
+  width: 350px;
+  height: 80px;
+  background-color: #99CCFF;
+}
+
+
+.footer > figure{
+  height: 150px;
+  width: auto;
+
+  position: absolute;
+  left: -40px;
+  top: -50px;
+}
+
+.footer > h4 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  margin-right: 15px;
+  color: black;
+  font-size: 17px;
+}
